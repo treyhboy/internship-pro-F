@@ -1,22 +1,20 @@
 import React, { Component } from 'react';
-import './script';
-import './App.css';
+import Login from "./Login";
+import Home from "./Homepage";
+import {BrowserRouter as Router,Route,} from 'react-router-dom';
 
 class App extends Component {
 
   render() {
 
-    return (<div id="header">
-          <div className="text-box">
-          <h1 className="heading-primary">
-          <span className="heading-primary-main">Typing</span>
-          <span className="heading-primary-sub">is where you press keys</span>
-      </h1>
-      <a href="#" className="btn btn-white btn-animated">Login</a>
-          <a href="#" className="btn btn-white btn-animated">SignUp</a>
-          </div>
-          </div>
-    );
+    return (
+        <Router>
+            <div>
+            <Route exact path={'/'} component={Home}/>
+            <Route path={'/login'} component={Login}/>
+            </div>
+        </Router>
+  );
   }
 }
 
