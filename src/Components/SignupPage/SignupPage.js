@@ -22,7 +22,7 @@ class SignupPage extends Component {
         event.preventDefault()
         const { username, password } = this.state
         if (username && password) {
-            axios.post('http://localhost:1234/login', {username,password})
+            axios.post('http://localhost:6060/signup', {username,password})
                 .then(function (response) {
                     console.log(response.data);
                     finishAuthentication(response.data.token);

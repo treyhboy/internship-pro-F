@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import {Link,Redirect} from 'react-router-dom';
+import {isAuthenticated} from '../../Utils/Authservice';
 
 
 class Home extends Component {
 
     render() {
+        debugger;
         return (
+                isAuthenticated()?<Redirect to={"/main"}/>:
                 <div className="text-box">
                     <h1 className="heading-primary">
                         <span className="heading-primary-main">Typing</span>
