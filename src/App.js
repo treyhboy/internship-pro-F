@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
-import Login from "./Login";
-import Home from "./Homepage";
-import {BrowserRouter as Router,Route,} from 'react-router-dom';
+import {isAuthenticated} from './Utils/Authservice'
+import Login from "./Components/Loginpage/Login";
+import Home from "./Components/HomePage/Homepage";
+import MainPage from './Components/MainPage/MainPage';
+import Container from './Components/Container/Container';
+import SignupPage from "./Components/SignupPage/SignupPage"
+import {BrowserRouter as Router,Route,Redirect,Switch} from 'react-router-dom';
 
 class App extends Component {
 
@@ -9,10 +13,14 @@ class App extends Component {
 
     return (
         <Router>
-            <div>
-            <Route exact path={'/'} component={Home}/>
-            <Route path={'/login'} component={Login}/>
-            </div>
+                <div id="header">
+                    <Redirect from={"/"} to="/home"/>
+                    <Switch>
+                    <Route path="/home" component={isAuthenticated()? MainPage:Home}/>
+                    <Route path='/login' component={Login}/>
+                    <Route path='/signup' component={SignupPage}/>
+                    </Switch>
+                </div>
         </Router>
   );
   }

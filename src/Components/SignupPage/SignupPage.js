@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
+import {finishAuthentication} from '../../Utils/Authservice';
 import axios from "axios";
-import './script';
-import './App.css';
 
-class Login extends Component {
+class SignupPage extends Component {
 
     constructor(props) {
         super(props);
         this.state = { username: "",password:"" };
         this.handlechangeu = this.handlechangeu.bind(this);
         this.handlechangep = this.handlechangep.bind(this);
-        this.onLoginSubmit= this.onLoginSubmit.bind(this);
+        this.onSignUpSubmit= this.onSignUpSubmit.bind(this);
     }
 
     handlechangeu(e) {
@@ -19,35 +18,23 @@ class Login extends Component {
     handlechangep(e) {
         this.setState({password: e.target.value });
     }
-    onLoginSubmit(event) {
+    onSignUpSubmit(event) {
         event.preventDefault()
         const { username, password } = this.state
         if (username && password) {
             axios.post('http://localhost:1234/login', {username,password})
                 .then(function (response) {
-                    console.log(response);
+                    console.log(response.data);
+                    finishAuthentication(response.data.token);
                 })
                 .catch(function (error) {
                     console.log(error);
                 });
-            //   fetch('http://localhost:1234/login', {
-            //     method: 'POST',
-            //     body: JSON.stringify({username,password}),
-            //     headers: { 'Content-Type': 'json' }
-            // }).then(result => {
-            //         // if (!result.token) {
-            //         //     this.setState({loginError: result.message})
-            //         //     return
-            //         // }
-            //         //this.props.auth.finishAuthentication(result.token)
-            //         //this.context.router.push('/profile')
-            //     return result;
-            // }).then(result => { console.log(result);});
         }
     }
     render() {
 
-        return (<div id="header">
+        return (<div >
                 <input
                     placeholder="Enter Username"
                     value={this.state.value}
@@ -58,11 +45,11 @@ class Login extends Component {
                     value={this.state.value}
                     onChange={this.handlechangep}
                 />
-                <button onClick={this.onLoginSubmit}>Submit</button>
+                <button onClick={this.onSignUpSubmit}>Submit</button>
 
             </div>
         );
     }
 }
 
-export default Login;
+export default SignupPage;
