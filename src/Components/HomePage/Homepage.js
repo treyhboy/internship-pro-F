@@ -9,6 +9,7 @@ class Home extends Component {
         debugger;
         return (
                 isAuthenticated()?<Redirect to={"/main"}/>:
+                    <div id = "header">
                 <div className="text-box">
                     <h1 className="heading-primary">
                         <span className="heading-primary-main">Typing</span>
@@ -17,6 +18,7 @@ class Home extends Component {
                     <Link to="/login" className="btn btn-white btn-animated">Login</Link>
                     <Link to="/signup" className="btn btn-white btn-animated">SignUp</Link>
                 </div>
+                    </div>
         );
     }
 }

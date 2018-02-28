@@ -34,6 +34,7 @@ class MainPage extends Component {
     render() {
         return (
             !isAuthenticated()?<Redirect to={"/"}/>:<div style={{display:"flex",justifyContent: "flex-end"}}>
+                <div id="header">
                 <Link to="/" onClick={this.LogOut} className="btn btn-white btn-animated" style={{marginTop:"20px"}}>Logout</Link>
             <div className="text-box">
                     <h1 className="heading-primary">
@@ -42,6 +43,7 @@ class MainPage extends Component {
                     </h1>
 
                 </div>
+            </div>
             </div>
         );
     }
