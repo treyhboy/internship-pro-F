@@ -47,7 +47,7 @@ class Login extends Component {
     }
     render() {
         return (
-            isAuthenticated()?<Redirect to={'/main'}/>:<div>
+            isAuthenticated()?<Redirect to={'/main'}/>:<div id="heade">
                 <div className="limiter">
                     <div className="container-login100" >
                         <div className="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
@@ -58,13 +58,13 @@ class Login extends Component {
 
                                 <div className="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
                                     <span className="label-input100">Username</span>
-                                    <input className="input100" type="text" name="username" placeholder="Type your username" />
+                                    <input className="input100" type="text" name="username" onChange={this.handlechangeu} placeholder="Type your username" value={this.state.value}/>
                                         <span className="focus-input100"></span>
                                 </div>
 
                                 <div className="wrap-input100 validate-input" data-validate="Password is required">
                                     <span className="label-input100">Password</span>
-                                    <input className="input100" type="password" name="pass" placeholder="Type your password" />
+                                    <input className="input100" type="password" name="pass" onChange={this.handlechangep} placeholder="Type your password" value={this.state.value} />
                                         <span className="focus-input100" ></span>
                                 </div>
 
@@ -77,7 +77,7 @@ class Login extends Component {
                                 <div className="container-login100-form-btn">
                                     <div className="wrap-login100-form-btn">
                                         <div className="login100-form-bgbtn"></div>
-                                        <button className="login100-form-btn">
+                                        <button className="login100-form-btn" onClick={this.onLoginSubmit}>
                                             Login
                                         </button>
                                     </div>

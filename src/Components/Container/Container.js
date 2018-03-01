@@ -5,7 +5,7 @@ class Container extends Component {
 
     render() {
         return (
-            <div id="header">
+            <div id="hea">
             </div>
         );
     }

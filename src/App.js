@@ -8,6 +8,7 @@ import SignupPage from "./Components/SignupPage/SignupPage"
 import {createBrowserHistory} from 'history';
 import {Router,Route,Redirect,Switch,} from 'react-router-dom';
 import {} from 'react-router';
+
 class App extends Component {
     constructor(props)
     {
@@ -16,14 +17,12 @@ class App extends Component {
     render() {
       return (
         <Router history={createBrowserHistory()} >
-            <div id="header" >
                     <Switch>
-                        <Route exact path="/" component={Home}/>
+                        <Route path="/" exact component={Home}/>
                         <Route path="/main" component={MainPage}/>
                         <Route path='/login' component={Login}/>
                         <Route path='/signup' component={SignupPage}/>
                     </Switch>
-                </div>
         </Router>
   );
   }

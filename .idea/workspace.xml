@@ -2,80 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="65e6000c-0201-42da-bbf5-fe065934c32b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/fonts/Material-Design-Iconic-Font.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/fonts/Material-Design-Iconic-Font.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/fonts/Material-Design-Iconic-Font.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/fonts/Material-Design-Iconic-Font.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Black.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-BlackItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Bold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-BoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-ExtraBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-ExtraBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-ExtraLight.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-ExtraLightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Italic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Light.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-LightItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Medium.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-MediumItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-SemiBold.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-SemiBoldItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-Thin.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/poppins/Poppins-ThinItalic.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/images/bg-01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/images/icons/favicon.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/css/util.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/HELP-US-OUT.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/animated.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/bordered-pulled.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/core.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/fixed-width.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/font-awesome.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/icons.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/larger.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/list.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/mixins.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/path.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/rotated-flipped.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/screen-reader.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/stacked.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/less/variables.less" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_animated.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_bordered-pulled.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_core.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_fixed-width.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_icons.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_larger.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_list.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_path.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_rotated-flipped.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_screen-reader.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_stacked.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/_variables.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/font-awesome-4.7.0/scss/font-awesome.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/css/material-design-iconic-font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/css/material-design-iconic-font.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Components/Loginpage/fonts/iconic/fonts/Material-Design-Iconic-Font.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/App.js" afterPath="$PROJECT_DIR$/src/App.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Container/Container.js" afterPath="$PROJECT_DIR$/src/Components/Container/Container.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/HomePage/Homepage.js" afterPath="$PROJECT_DIR$/src/Components/HomePage/Homepage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Loginpage/Login.js" afterPath="$PROJECT_DIR$/src/Components/Loginpage/Login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/Loginpage/css/main.css" afterPath="$PROJECT_DIR$/src/Components/Loginpage/css/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" afterPath="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Components/SignupPage/SignupPage.js" afterPath="$PROJECT_DIR$/src/Components/SignupPage/SignupPage.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Styles/App.css" afterPath="$PROJECT_DIR$/src/Styles/App.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -92,21 +29,11 @@
       <file leaf-file-name="App.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+            <state relative-caret-position="325">
+              <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Routes.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Routes.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -124,8 +51,8 @@
       <file leaf-file-name="Container.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Container/Container.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="198">
+              <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -134,20 +61,33 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+            <state relative-caret-position="216">
+              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="212" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainPage.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/MainPage/MainPage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+            <state relative-caret-position="558">
+              <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <marker date="1519865464411" expanded="true" signature="293:329" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="356:454" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="480:576" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="511:576" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="602:642" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="670:688" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="713:778" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="807:933" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="868:933" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="960:997" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="1025:1150" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="1179:1226" ph="{...}" />
+                <marker date="1519865464411" expanded="true" signature="1179:1438" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -156,18 +96,18 @@
       <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Styles/App.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2718">
-              <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+            <state relative-caret-position="324">
+              <caret line="125" column="15" lean-forward="false" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Homepage.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Homepage.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/HomePage/Homepage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -178,8 +118,8 @@
       <file leaf-file-name="Login.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Loginpage/Login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2304">
-              <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+            <state relative-caret-position="882">
+              <caret line="49" column="71" lean-forward="false" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -190,8 +130,8 @@
       <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Loginpage/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-964">
-              <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
+            <state relative-caret-position="263">
+              <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -233,13 +173,14 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/history.js" />
         <option value="$PROJECT_DIR$/src/Components/SignupPage/SignupPage.js" />
-        <option value="$PROJECT_DIR$/src/Styles/App.css" />
+        <option value="$PROJECT_DIR$/src/Components/Container/Container.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" />
         <option value="$PROJECT_DIR$/src/Components/Loginpage/css/main.css" />
         <option value="$PROJECT_DIR$/src/Components/Loginpage/Login.js" />
-        <option value="$PROJECT_DIR$/src/Components/Container/Container.js" />
         <option value="$PROJECT_DIR$/src/Components/HomePage/Homepage.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/Styles/App.css" />
+        <option value="$PROJECT_DIR$/src/Components/MainPage/MainPage.js" />
       </list>
     </option>
   </component>
@@ -323,14 +264,7 @@
               <item name="Typo-frontent" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Container" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Typo-frontent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Typo-frontent" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="MainPage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Typo-frontent" type="b2602c69:ProjectViewProjectNode" />
@@ -396,15 +330,16 @@
       <updated>1513976647833</updated>
       <workItem from="1513976649075" duration="3026000" />
       <workItem from="1514236118920" duration="29809000" />
-      <workItem from="1519769390288" duration="8473000" />
+      <workItem from="1519769390288" duration="19138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41308000" />
+    <option name="totallyTimeSpent" value="51973000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -412,7 +347,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28295043" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28295043" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -466,7 +401,7 @@
         <state relative-caret-position="216">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -477,6 +412,19 @@
           <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1519865464411" expanded="true" signature="293:329" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="356:454" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="480:576" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="511:576" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="602:642" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="670:688" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="713:778" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="807:933" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="868:933" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="960:997" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1025:1150" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1179:1226" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1179:1438" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -524,7 +472,7 @@
         <state relative-caret-position="396">
           <caret line="24" column="52" lean-forward="false" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -606,16 +554,8 @@
         <state relative-caret-position="-206">
           <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -659,10 +599,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
+    <entry file="file://$PROJECT_DIR$/src/Routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="54">
+          <caret line="29" column="13" lean-forward="false" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -675,18 +615,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Styles/App.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2718">
-          <caret line="151" column="14" lean-forward="false" selection-start-line="151" selection-start-column="14" selection-end-line="151" selection-end-column="14" />
+        <state relative-caret-position="325">
+          <caret line="20" column="46" lean-forward="false" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Loginpage/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="44" column="6" lean-forward="false" selection-start-line="44" selection-start-column="6" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="212" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Loginpage/Login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2304">
-          <caret line="128" column="0" lean-forward="true" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
+        <state relative-caret-position="882">
+          <caret line="49" column="71" lean-forward="false" selection-start-line="49" selection-start-column="71" selection-end-line="49" selection-end-column="71" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -695,24 +653,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Container/Container.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Loginpage/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-964">
-          <caret line="48" column="28" lean-forward="true" selection-start-line="48" selection-start-column="28" selection-end-line="48" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Styles/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <caret line="125" column="15" lean-forward="false" selection-start-line="125" selection-start-column="15" selection-end-line="125" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/HomePage/Homepage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="85" lean-forward="false" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -721,20 +679,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/MainPage/MainPage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="46" selection-start-column="12" selection-end-line="46" selection-end-column="12" />
+        <state relative-caret-position="558">
+          <caret line="31" column="11" lean-forward="false" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/HomePage/Homepage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1519865464411" expanded="true" signature="293:329" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="356:454" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="480:576" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="511:576" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="602:642" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="670:688" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="713:778" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="807:933" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="868:933" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="960:997" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1025:1150" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1179:1226" ph="{...}" />
+            <marker date="1519865464411" expanded="true" signature="1179:1438" ph="{...}" />
           </folding>
         </state>
       </provider>
