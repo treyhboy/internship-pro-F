@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {logout,isAuthenticated} from '../../Utils/Authservice';
 import {Panel,ListGroup,ListGroupItem,FormControl} from 'react-bootstrap';
 import {Link,Redirect} from 'react-router-dom';
+import FriendList from './FriendList/FriendList';
 import styled from 'styled-components';
 
 const Col = styled.div`
@@ -58,9 +59,11 @@ min-height: 60px;
 background-color: #d9d9d9;
 `
 const Message = styled.div`
+    display: flex;
+    flex-flow: wrap;
     min-height: 20px;
-	width: 240px;
-	margin: ${props=>props.right?"0px 0px 0px 75%":"20px"}; 
+	max-width: 290px;
+	margin: ${props=>props.right?"0px 20px 0px 75%":"20px"}; 
 	padding: 10px;
 	background-color: #eeeeee;
 	border-radius: 4px;
@@ -108,24 +111,7 @@ class MainPage extends Component {
                                     onChange={this.handleChange}
                                 />
                             </Search>
-                            <ListGroup>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                                <ListGroupItem href="#">Friend</ListGroupItem>
-                            </ListGroup>
+                            <FriendList/>
                         </Mbox>
                     </Col>
                     <Col>
