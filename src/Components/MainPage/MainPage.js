@@ -4,6 +4,8 @@ import {Panel,ListGroup,ListGroupItem,FormControl} from 'react-bootstrap';
 import {Link,Redirect} from 'react-router-dom';
 import FriendList from './FriendList/FriendList';
 import styled from 'styled-components';
+import io from 'socket.io-client';
+const socket = io.connect('http://localhost:1234');
 
 const Col = styled.div`
 display: flex;
@@ -79,6 +81,7 @@ class MainPage extends Component {
         super(props)
         this.state={value:""}
         this.handleKeypress = this.handleKeypress.bind(this);
+        this.handlechange = this.handlechange.bind(this);
     }
 
     handleKeypress(event)
@@ -89,6 +92,16 @@ class MainPage extends Component {
             value: prevState.value + k
         }));
         console.log(key);
+    }
+    handlechange(event)
+    {
+        var k = event.target.value;
+        this.setState({
+            value: k
+        });
+        socket.emit('some',{v:k},function () {
+            console.log('in this')
+        });
     }
 
     LogOut()
@@ -108,7 +121,7 @@ class MainPage extends Component {
                                     type="text"
                                     value={this.state.value}
                                     placeholder="Search friend here"
-                                    onChange={this.handleChange}
+
                                 />
                             </Search>
                             <FriendList/>
@@ -134,7 +147,7 @@ class MainPage extends Component {
                                     type="text"
                                     value={this.state.value}
                                     placeholder="Type here"
-                                    onChange={this.handleChange}
+                                    onChange={this.handlechange}
                                 />
                             </Tspace>
                         </Row>
