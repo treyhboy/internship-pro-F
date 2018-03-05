@@ -4,6 +4,7 @@ import Login from "./Components/Loginpage/Login";
 import Home from "./Components/HomePage/Homepage";
 import MainPage from './Components/MainPage/MainPage';
 import Container from './Components/Container/Container';
+import ProfilePage from './Components/ProfilePage/ProfilePage';
 import SignupPage from "./Components/SignupPage/SignupPage"
 import {createBrowserHistory} from 'history';
 import {Router,Route,Redirect,Switch,} from 'react-router-dom';
@@ -22,6 +23,7 @@ class App extends Component {
                         <Route path="/main" component={MainPage}/>
                         <Route path='/login' component={Login}/>
                         <Route path='/signup' component={SignupPage}/>
+                        <Route path='/user' component={ProfilePage}/>
                     </Switch>
         </Router>
   );

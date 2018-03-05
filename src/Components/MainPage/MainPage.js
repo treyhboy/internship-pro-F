@@ -22,6 +22,7 @@ background-color: #777777;
 const Head = styled.div`
 display: flex;
 flex-flow: Row;
+justify-content: space-between;
 min-height: 80px;
 min-width: 1040px;
 background-color: #666666;
@@ -32,13 +33,12 @@ min-width: 1040px;
 
 `;
 const Space = styled.div`
-min-width:900px;
+min-width:700px;
 `
 const Row = styled.div`
 display: flex;
 flex-flow: Row;
 justify-content: space-between;
-
 `;
 const Tspace = styled.div`
 display: flex;
@@ -131,6 +131,7 @@ class MainPage extends Component {
                         <Row>
                             <Head>
                                 <Space/>
+                                <Link to="/user" className="btn btn-white btn-animated" style={{marginTop:"20px"  }}>User</Link>
                                 <Link to="/" onClick={this.LogOut} className="btn btn-white btn-animated" style={{marginTop:"20px"  }}>Logout</Link>
                             </Head>
                         </Row>
