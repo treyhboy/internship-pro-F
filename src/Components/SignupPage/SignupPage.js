@@ -39,7 +39,7 @@ class SignupPage extends Component {
                     console.log(history().location);
                 })
                 .catch(function (error) {
-                    toast.error("User already exist",
+                    toast.error(error,
                         {
                             position: toast.POSITION.TOP_RIGHT,
                             autoClose: 2000,
