@@ -1,6 +1,6 @@
-# Typo-frontent
+# Authentication-Frontend (React JS)
 
 
 Developed by 
   - [Tarun](https://github.com/treyhboy)
-  - [Sandeep](https://github.com/srsandy)
+
