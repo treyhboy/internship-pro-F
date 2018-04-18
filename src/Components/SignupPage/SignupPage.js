@@ -30,7 +30,7 @@ class SignupPage extends Component {
         event.preventDefault()
         const { username, password } = this.state
         if (username && password) {
-            axios.post('http://localhost:1234/signup', {username,password})
+            axios.post('https://int-app-backend.herokuapp.com/signup', {username,password})
                 .then(function (response) {
                     console.log(response.data);
                     console.log(history().location);

@@ -29,7 +29,7 @@ class Login extends Component {
         event.preventDefault()
         const { username, password } = this.state
         if (username && password) {
-            axios.post('http://localhost:1234/login', {username,password})
+            axios.post('https://int-app-backend.herokuapp.com/login', {username,password})
                 .then(function (response) {
                     console.log(response.data);
                     console.log(history().location);
@@ -41,7 +41,7 @@ class Login extends Component {
                 debugger;
                 })
                 .catch(function (error) {
-                    toast.error(" Wrong username or password",
+                    toast.error(error,
                     {
                         position: toast.POSITION.TOP_RIGHT,
                         autoClose: 2000,
