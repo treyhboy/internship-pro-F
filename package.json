@@ -14,8 +14,11 @@
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17",
+    "react-toastify": "^4.0.0-rc.4",
+    "react-toastr": "^3.0.0",
     "socket.io-client": "^2.0.4",
-    "styled-components": "^3.1.6"
+    "styled-components": "^3.1.6",
+    "toastr": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",

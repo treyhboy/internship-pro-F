@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import {finishAuthentication,isAuthenticated} from '../../Utils/Authservice';
 import {createBrowserHistory as history} from 'history';
-import {Redirect,Link} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import axios from "axios";
 import "./css/main.css";
 import "./css/util.css";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 class Login extends Component {
 
@@ -34,10 +36,17 @@ class Login extends Component {
                     finishAuthentication(response.data.token);
                     debugger;
                     history().go("/main")
+
                     console.log(history().location);
                 debugger;
                 })
                 .catch(function (error) {
+                    toast.error(" Wrong username or password",
+                    {
+                        position: toast.POSITION.TOP_RIGHT,
+                        autoClose: 2000,
+                        closeButton: false // Remove the closeButton
+                    });
                     console.log(error);
                 });
         }
@@ -48,6 +57,7 @@ class Login extends Component {
     render() {
         return (
             isAuthenticated()?<Redirect to={'/main'}/>:<div id="heade">
+                <ToastContainer />
                 <div className="limiter">
                     <div className="container-login100" >
                         <div className="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
